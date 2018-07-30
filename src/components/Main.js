@@ -44,7 +44,7 @@ class App extends Component {
             className={classes.button}
           >
             <a href="https://alquran.cloud/api" className={classes.link}>
-              Quran API Documentation
+              Quran API Documentation.
             </a>
           </Button>
         </div>
