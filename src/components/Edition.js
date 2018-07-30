@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Paper from '@material-ui/core/Paper';
 import withRouter from 'react-router-dom/withRouter';
 import axios from 'axios';
-import { Divider } from '../../node_modules/@material-ui/core';
+import  Divider  from '@material-ui/core/Divider';
 import Loading from './Loading'
 import Error from './Error'
 
