@@ -19,7 +19,7 @@ class App extends Component {
       loading:true
     })
       axios
-        .get(`http://api.alquran.cloud/quran/${identifier}`)
+        .get(`https://api.alquran.cloud/quran/${identifier}`)
         .then(res => {
 
           this.setState({
